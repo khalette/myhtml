@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="A simple, semantically correct web page example prioritizing human and machine readability.">
+  <title>Semantic Web Page Example</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Semantic Web Page</h1>
+    <nav>
+      <ul>
+        <li><a href="#about" title="About Section">About</a></li>
+        <li><a href="#content" title="Content Section">Content</a></li>
+        <li><a href="#contact" title="Contact Section">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About This Page</h2>
+      <p>This page is structured using semantic HTML5 elements for improved accessibility and SEO. The layout is clear for both humans and machines.</p>
+    </section>
+    <section id="content">
+      <h2>Main Content</h2>
+      <article>
+        <h3>Why Semantic HTML Matters</h3>
+        <p>Semantic HTML uses meaningful tags to describe content, making it easier for browsers, search engines, and assistive technologies to understand the structure of a web page.</p>
+      </article>
+      <article>
+        <h3>Benefits</h3>
+        <ul>
+          <li>Enhanced accessibility</li>
+          <li>Better SEO</li>
+          <li>Clearer code for developers</li>
+        </ul>
+      </article>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <address>
+        Email: <a href="mailto:info@example.com">info@example.com</a>
+      </address>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Semantic Web Example</p>
+  </footer>
+</body>
+</html>
